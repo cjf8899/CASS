@@ -1,1 +1,70 @@
 # CAFS
+
+## Getting Started
+
+PASCAL VOC 2012 download link : UniMatch [github](https://github.com/LiheYoung/UniMatch)
+
+```angular2html
+[Your Pascal Path]
+  ├── JPEGImages
+  └── SegmentationClass
+```
+
+Pretrained Backbone : [ResNet101](https://drive.google.com/file/d/126ZzFt8PQ0KX7dvKCn-ZSeKb468mZOyj/view?usp=share_link), [MiT-B4](https://drive.google.com/file/d/1Gn0QT7-SgT3k20JtSX7nyIOQJaEPcbQT/view?usp=share_link)
+
+Eval Weight : [link](https://drive.google.com/drive/folders/11_MzauUu0de4NWCb0D4IpGtVcXLO1hSc?usp=share_link)
+
+```angular2html
+CAFS
+├── pretrained
+│   ├── resnet101.pth
+│   └── mit_b4.pth
+└── cafs_pretrained
+    ├── 1_CAFS_1_4_resnet101_78.04.pth
+    ├── 2_CAFS_1_4_resnet101_78.32.pth
+    ├── 3_CAFS_1_4_resnet101_78.05.pth
+    ├── 1_CAFS_1_4_segf_b4_79.90.pth
+    ├── 2_CAFS_1_4_segf_b4_79.81.pth
+    └── 3_CAFS_1_4_segf_b4_79.99.pth
+```
+## Config
+You can control our methods in the [config file](https://github.com/anonymous1253/CAFS/blob/main/configs/pascal.yaml#L24-L29).
+
+## Train
+```bash
+sh tool/train.sh <num_gpu> <port>
+
+# ex : sh tool/train.sh 4 23500
+```
+
+## Eval
+```bash
+sh tool/eval.sh <num_gpu> <port>
+
+# ex : sh tool/eval.sh 4 23500
+```
+
+## Paper Result
+
+| Method           |  1/2 (5292) |  1/4 (2646) |  1/8 (1323) |  1/16 (662) |
+| -----------------| ----------- | ----------- | ----------- | ----------- |
+| ST++             | -           | 76.6        | 76.3        | 74.5        |
+| UniMatch         | 77.5        | 77.2        | 77.0        | 76.5        |
+| CAFS-V3(ours)    | 78.1        | 78.0        | 77.5        | 77.1        |
+| CAFS-B4(ours)    | 80.2        | 79.9        | 78.8        | 77.5        |
+
+
+## Re Implementation Result
+
+| Model               |  1/2 (5291) |  1/4 (2646) |  1/8 (1323) |  1/16 (662) |
+| --------------------| ----------- | ----------- | ----------- | ----------- |
+| CAFS-V3 (Try 1)     | [78.86](https://drive.google.com/file/d/11U1StTB6y7TONpxO8DkLnBLpI-Cuhls2/view?usp=sharing) | [78.04](https://drive.google.com/file/d/1M-mp2XyQy4PE6OZoaDXQB0nViY0k8R__/view?usp=sharing) | [77.18](https://drive.google.com/file/d/1jRRlzaiGOC7qb0UBVODyoH8dGe1p-_I7/view?usp=sharing)        | TODO        |
+| CAFS-V3 (Try 2)     | [78.60](https://drive.google.com/file/d/19QoxDPdLl7M1SxF9FfV0amaEY_RkqPbl/view?usp=sharing) | [78.32](https://drive.google.com/file/d/1QlWG0A8fzmvbauofskJiHFgqAiEOZzjM/view?usp=sharing) | [77.29](https://drive.google.com/file/d/1DHNLbrY_eb5QiN2s9b2ZTXKjxfwwVuLO/view?usp=sharing)        | TODO        |
+| CAFS-V3 (Try 3)     | [79.21](https://drive.google.com/file/d/1CinXys39ts-Ml0fdGUsA8PekL8JcoV6Y/view?usp=sharing) | [78.05](https://drive.google.com/file/d/1rJsMpMBoZLr5Uz3z4hpwEwRFKho59Z3G/view?usp=sharing) | [77.76](https://drive.google.com/file/d/12IdKFxohcJhNOBZqzHqb2UwLKTYy5OXE/view?usp=sharing)        | TODO        |
+| Mean (std)          | 78.89 (0.25)       | 78.13 (0.13)        | 77.41 (0.25)        | TODO        |
+|     |    |    |         |         |
+| CAFS-B4 (Try 1)     | TODO        | [79.90](https://drive.google.com/file/d/1mLzZnt1vELRAUWnJS1FJFjtNZyYJcENj/view?usp=share_link) | TODO        | TODO        |
+| CAFS-B4 (Try 2)     | TODO        | [79.81](https://drive.google.com/file/d/1l49MDtrBDDS0FN4NPoFX0UGoQaOsdTvt/view?usp=sharing) | TODO        | TODO        |
+| CAFS-B4 (Try 3)     | TODO        | [79.99](https://drive.google.com/file/d/1BeH8r0MiioAzw_QPy2enC8aCmXdvdOpv/view?usp=sharing) | TODO        | TODO        |
+| Mean (std)          | TODO        | 79.89 (0.07)        | TODO        | TODO        |
+
