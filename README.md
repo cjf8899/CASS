@@ -58,9 +58,9 @@ sh tool/eval.sh <num_gpu> <port>
 
 | Model               |  1/2 (5291) |  1/4 (2646) |  1/8 (1323) |  1/16 (662) |
 | --------------------| ----------- | ----------- | ----------- | ----------- |
-| CAFS-V3 (Try 1)     | [78.86](https://drive.google.com/file/d/11U1StTB6y7TONpxO8DkLnBLpI-Cuhls2/view?usp=sharing) | [78.04](https://drive.google.com/file/d/1M-mp2XyQy4PE6OZoaDXQB0nViY0k8R__/view?usp=sharing) | [77.18](https://drive.google.com/file/d/1jRRlzaiGOC7qb0UBVODyoH8dGe1p-_I7/view?usp=sharing)        | TODO        |
-| CAFS-V3 (Try 2)     | [78.60](https://drive.google.com/file/d/19QoxDPdLl7M1SxF9FfV0amaEY_RkqPbl/view?usp=sharing) | [78.32](https://drive.google.com/file/d/1QlWG0A8fzmvbauofskJiHFgqAiEOZzjM/view?usp=sharing) | [77.29](https://drive.google.com/file/d/1DHNLbrY_eb5QiN2s9b2ZTXKjxfwwVuLO/view?usp=sharing)        | TODO        |
-| CAFS-V3 (Try 3)     | [79.21](https://drive.google.com/file/d/1CinXys39ts-Ml0fdGUsA8PekL8JcoV6Y/view?usp=sharing) | [78.05](https://drive.google.com/file/d/1rJsMpMBoZLr5Uz3z4hpwEwRFKho59Z3G/view?usp=sharing) | [77.76](https://drive.google.com/file/d/12IdKFxohcJhNOBZqzHqb2UwLKTYy5OXE/view?usp=sharing)        | TODO        |
+| CAFS-V3 (Try 1)     | [78.86](https://drive.google.com/file/d/11U1StTB6y7TONpxO8DkLnBLpI-Cuhls2/view?usp=sharing) | [78.04](https://drive.google.com/file/d/1M-mp2XyQy4PE6OZoaDXQB0nViY0k8R__/view?usp=sharing) | [77.18](https://drive.google.com/file/d/1xJ8DPYHsqFm2OZOvJnUdqGVgWPvWiMk9/view?usp=sharing)        | TODO        |
+| CAFS-V3 (Try 2)     | [78.60](https://drive.google.com/file/d/19QoxDPdLl7M1SxF9FfV0amaEY_RkqPbl/view?usp=sharing) | [78.32](https://drive.google.com/file/d/1QlWG0A8fzmvbauofskJiHFgqAiEOZzjM/view?usp=sharing) | [77.29](https://drive.google.com/file/d/1UPQGOXo2aLhWaEI1K4UcITRhyygsSpeu/view?usp=sharing)        | TODO        |
+| CAFS-V3 (Try 3)     | [79.21](https://drive.google.com/file/d/1CinXys39ts-Ml0fdGUsA8PekL8JcoV6Y/view?usp=sharing) | [78.05](https://drive.google.com/file/d/1rJsMpMBoZLr5Uz3z4hpwEwRFKho59Z3G/view?usp=sharing) | [77.76](https://drive.google.com/file/d/1_M3sZE3XMsr6_Iq9LCkFH9yfjcEub8sp/view?usp=sharing)        | TODO        |
 | Mean (std)          | 78.89 (0.25)       | 78.13 (0.13)        | 77.41 (0.25)        | TODO        |
 |     |    |    |         |         |
 | CAFS-B4 (Try 1)     | TODO        | [79.90](https://drive.google.com/file/d/1mLzZnt1vELRAUWnJS1FJFjtNZyYJcENj/view?usp=share_link) | TODO        | TODO        |
