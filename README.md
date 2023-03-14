@@ -68,6 +68,6 @@ sh tool/eval.sh <num_gpu> <port>
 |     |    |    |         |         |
 | CAFS-B4 (Try 1)     | [80.49](https://drive.google.com/file/d/1S7LrvcFT2ozLD_PKr8OkXd9tujEUJIas/view?usp=sharing)        | [79.90](https://drive.google.com/file/d/1mLzZnt1vELRAUWnJS1FJFjtNZyYJcENj/view?usp=share_link) | [78.78](https://drive.google.com/file/d/1S4Zy4hl7QwNwqWacNM2O0pG_v_TadTz7/view?usp=sharing)        | TODO        |
 | CAFS-B4 (Try 2)     | [80.53](https://drive.google.com/file/d/10FA8zYYZe5VbOTvLJ8VW7wlH-btvbRaA/view?usp=sharing)        | [79.81](https://drive.google.com/file/d/1l49MDtrBDDS0FN4NPoFX0UGoQaOsdTvt/view?usp=sharing) | [78.72](https://drive.google.com/file/d/1voq2y234u8VAwzDWjySlFWQQAONOvz-Y/view?usp=sharing)        | TODO        |
-| CAFS-B4 (Try 3)     | TODO        | [79.99](https://drive.google.com/file/d/1BeH8r0MiioAzw_QPy2enC8aCmXdvdOpv/view?usp=sharing) | [78.76](https://drive.google.com/file/d/1dA_FJYXkQGicxDfQkdXuWHyXxDCfTFnO/view?usp=sharing)        | TODO        |
+| CAFS-B4 (Try 3)     | [80.42](https://drive.google.com/file/d/1UaklR18Bqjo889QHMYZqjZdkEMIt47Lw/view?usp=sharing)        | [79.99](https://drive.google.com/file/d/1BeH8r0MiioAzw_QPy2enC8aCmXdvdOpv/view?usp=sharing) | [78.76](https://drive.google.com/file/d/1dA_FJYXkQGicxDfQkdXuWHyXxDCfTFnO/view?usp=sharing)        | TODO        |
 | Mean (std)          | TODO        | 79.89 (0.07)        | 78.75 (0.02)        | TODO        |
 
