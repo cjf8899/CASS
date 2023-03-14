@@ -31,7 +31,7 @@ CAFS
     └── 3_CAFS_1_4_segf_b4_79.99.pth
 ```
 ## Config
-You can control our methods in the [config file](https://github.com/anonymous1253/CAFS/blob/main/configs/pascal.yaml#L24-L29).
+You can control our methods in the [config file]().
 
 ## Train
 ```bash
