@@ -1,8 +1,11 @@
-# CAFS
+# CAFS: Class Adaptive Framework for Semi-Supervised Semantic Segmentation
+
+## Update Note
+* This repository will be completed on the date of the #### presentation.
 
 ## Getting Started
 
-PASCAL VOC 2012 download link : UniMatch [github](https://github.com/LiheYoung/UniMatch)
+PASCAL VOC 2012 download link : [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar), [SegmentationClass](https://drive.google.com/file/d/1Of_zgYIG_zdX1gJhnmFJRZ3uBTza2mpw/view?usp=sharing)
 
 ```angular2html
 [Your Pascal Path]
@@ -63,8 +66,8 @@ sh tool/eval.sh <num_gpu> <port>
 | CAFS-V3 (Try 3)     | [79.21](https://drive.google.com/file/d/1CinXys39ts-Ml0fdGUsA8PekL8JcoV6Y/view?usp=sharing) | [78.05](https://drive.google.com/file/d/1rJsMpMBoZLr5Uz3z4hpwEwRFKho59Z3G/view?usp=sharing) | [77.76](https://drive.google.com/file/d/1_M3sZE3XMsr6_Iq9LCkFH9yfjcEub8sp/view?usp=sharing)        | TODO        |
 | Mean (std)          | 78.89 (0.25)       | 78.13 (0.13)        | 77.41 (0.25)        | TODO        |
 |     |    |    |         |         |
-| CAFS-B4 (Try 1)     | TODO        | [79.90](https://drive.google.com/file/d/1mLzZnt1vELRAUWnJS1FJFjtNZyYJcENj/view?usp=share_link) | TODO        | TODO        |
-| CAFS-B4 (Try 2)     | TODO        | [79.81](https://drive.google.com/file/d/1l49MDtrBDDS0FN4NPoFX0UGoQaOsdTvt/view?usp=sharing) | TODO        | TODO        |
-| CAFS-B4 (Try 3)     | TODO        | [79.99](https://drive.google.com/file/d/1BeH8r0MiioAzw_QPy2enC8aCmXdvdOpv/view?usp=sharing) | TODO        | TODO        |
-| Mean (std)          | TODO        | 79.89 (0.07)        | TODO        | TODO        |
+| CAFS-B4 (Try 1)     | [80.49](https://drive.google.com/file/d/1S7LrvcFT2ozLD_PKr8OkXd9tujEUJIas/view?usp=sharing)        | [79.90](https://drive.google.com/file/d/1mLzZnt1vELRAUWnJS1FJFjtNZyYJcENj/view?usp=share_link) | [78.78](https://drive.google.com/file/d/1S4Zy4hl7QwNwqWacNM2O0pG_v_TadTz7/view?usp=sharing)        | TODO        |
+| CAFS-B4 (Try 2)     | [80.53](https://drive.google.com/file/d/10FA8zYYZe5VbOTvLJ8VW7wlH-btvbRaA/view?usp=sharing)        | [79.81](https://drive.google.com/file/d/1l49MDtrBDDS0FN4NPoFX0UGoQaOsdTvt/view?usp=sharing) | [78.72](https://drive.google.com/file/d/1voq2y234u8VAwzDWjySlFWQQAONOvz-Y/view?usp=sharing)        | TODO        |
+| CAFS-B4 (Try 3)     | TODO        | [79.99](https://drive.google.com/file/d/1BeH8r0MiioAzw_QPy2enC8aCmXdvdOpv/view?usp=sharing) | [78.76](https://drive.google.com/file/d/1dA_FJYXkQGicxDfQkdXuWHyXxDCfTFnO/view?usp=sharing)        | TODO        |
+| Mean (std)          | TODO        | 79.89 (0.07)        | 78.75 (0.02)        | TODO        |
 
