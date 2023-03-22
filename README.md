@@ -3,6 +3,14 @@
 ## Update Note
 * This repository will be completed on the date of the #### presentation.
 
+> [**CAFS: Class Adaptive Framework for Semi-Supervised Semantic Segmentation**](https://arxiv.org/abs/2303.11606)
+> 
+> Jingi Ju, Hyeoncheol Noh, Yooseung Wang, Minseok Seo, Dong-Geol Choi
+> 
+> *[arXiv 2303.11606](https://arxiv.org/abs/2303.11606)*
+> 
+> *[Project Page](https://jujingi.github.io/-)*
+
 ## Getting Started
 
 PASCAL VOC 2012 download link : [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar), [SegmentationClass](https://drive.google.com/file/d/1Of_zgYIG_zdX1gJhnmFJRZ3uBTza2mpw/view?usp=sharing)
