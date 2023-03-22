@@ -3,13 +3,7 @@
 ## Update Note
 * This repository will be completed on the date of the #### presentation.
 
-> [**CAFS: Class Adaptive Framework for Semi-Supervised Semantic Segmentation**](https://arxiv.org/abs/2303.11606)
-> 
-> Jingi Ju, Hyeoncheol Noh, Yooseung Wang, Minseok Seo, Dong-Geol Choi
-> 
-> *[arXiv 2303.11606](https://arxiv.org/abs/2303.11606)*
-> 
-> *[Project Page](https://jujingi.github.io/-)*
+### [Project Page](-) | [Video](-) | [Paper](https://arxiv.org/abs/2303.11606) | 
 
 ## Getting Started
 
