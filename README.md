@@ -3,7 +3,7 @@
 ## Update Note
 * (24.01.31) The paper has been accepted into IEEE Access.
 
-### [Project Page](-) | [Video](-) | [Paper](https://arxiv.org/abs/2303.11606) | 
+### [Paper](https://doi.org/10.1109/ACCESS.2024.3363628)
 
 ## Getting Started
 
